@@ -1,0 +1,54 @@
+:root{
+    --main-color: #fafafa;
+    --tile-color:  #fecaca;
+    --main-font-color: #0f172a;
+    --main-font: 'Comic Sans';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--main-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{    
+    width: inherit;
+    height: 10%;
+    font-size: 1.3rem;
+    font-weight: 550;
+    display: flex;
+    padding: 10px 15px;
+    font-family: var(--main-font);
+}
+
+#main{
+    background-color: var(--tile-color);
+    width: inherit;
+    height: 80%;
+    font-family: var(--main-font);
+}
+
+#footer{
+    height: 10%;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer > div{
+    font-family: 'Comic Sans';
+}
+
